@@ -11,9 +11,9 @@
 $SPOSourceSiteName = "Azure Developer Community Days 2022"
 $SPOSourceListName = "Teams Request List"
 $DefaultOwner = "Spiderman"
-$appID = "ee25ff8e-64e2-4335-8992-0874ecb6336a"
+$appID = "8f4aad2e-64a6-4790-8b20-ff4ead6adef9"
 $tenantID = "ac531135-db87-4577-9701-f3351b528e74"
-$clientSecret = "Als8Q~e-7C3ZERXWvITNmUGlvR4pNuYMLYxK3aFK"
+$clientSecret = "6lZ8Q~IuDA0HaM7HqdravWGV~uXoa.Jg0Vgvrai0"
 #endregion
 
 #========================================================================
@@ -54,7 +54,7 @@ function Normalize-String {
     )
 	
     $str = $str.ToLower()
-    $str = $str.Replace(" ", "")
+    #$str = $str.Replace(" ", "")
     $str = $str.Replace("ä", "ae")
     $str = $str.Replace("ö", "oe")
     $str = $str.Replace("ü", "ue")
