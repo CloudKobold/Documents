@@ -10,10 +10,10 @@
 #region global variables
 $SPOSourceSiteName = "Azure Developer Community Days 2022"
 $SPOSourceListName = "Teams Request List"
-$DefaultOwner = "Spiderman"
-$appID = "8f4aad2e-64a6-4790-8b20-ff4ead6adef9"
-$tenantID = "ac531135-db87-4577-9701-f3351b528e74"
-$clientSecret = "6lZ8Q~IuDA0HaM7HqdravWGV~uXoa.Jg0Vgvrai0"
+$DefaultOwner = "a-person-from-your-tenant@contoso.com"
+$appID = "<YOUR APP ID HERE>"
+$tenantID = "<YOUR TENANT ID HERE>"
+$clientSecret = "<YOUR CLIENTSECRET HERE>" # never do this in prod, better: use KeyVault or similar
 #endregion
 
 #========================================================================
